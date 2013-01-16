@@ -9,7 +9,7 @@ Not so hidden in this script is a super useful TransmissionRequestWrapper class 
 1. Put the file somewhere safe
 2. Edit the destination for old torrents and set rpc username and password as needed
 3. Make sure it is executable
-4. Set the following in transmission's settings.json
+4. Set the following in transmission's settings.json (usually /etc/transmission-daemon/settings.json) while transmission-daemon is not running.
     - set script-torrent-done-enabled: True
     - script-torrent-done-filename: "Path/to/script"
 5. Restart Transmission
